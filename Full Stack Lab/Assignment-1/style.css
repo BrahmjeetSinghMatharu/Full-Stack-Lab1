@@ -1,0 +1,145 @@
+body {
+  font-family: Verdana, sans-serif;
+  margin: 0;
+  padding: 25px 30px;
+  background: #fff;
+  color: #222;
+  line-height: 1.5;
+}
+
+section {
+  margin: 35px 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #999;
+  margin: 15px 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+  color: #111;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.profile-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #999;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.9rem;
+  color: #111;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0055aa;
+}
+
+.menu li a:hover {
+  color: #222;
+  text-decoration: underline;
+}
+
+#contact ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 8px 0;
+  padding: 0;
+}
+
+#contact a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #222;
+}
+
+#contact a:hover {
+  color: #0055aa;
+}
+
+#about p {
+  max-width: 95%;
+  text-align: justify;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+table th,
+table td {
+  border: 1px solid #000;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+table th {
+  background: #eee;
+}
+
+table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+#work h3 {
+  font-size: 1.1rem;
+  margin-top: 8px;
+}
+
+#work p {
+  margin: 4px 0 8px 15px;
+  font-style: italic;
+}
+
+#work ul ul {
+  list-style-type: circle;
+  margin-left: 35px;
+  margin-bottom: 15px;
+}
+
+#abilities ul {
+  list-style-type: square;
+  margin-left: 35px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #555;
+  margin-top: 25px;
+}

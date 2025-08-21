@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Trip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <ul id="nav-bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="book.html" class="active">Book</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h1>Book Your Dream Trip</h1>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="start-date">Travel Dates:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <input type="date" name="end-date" required>
+
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+
+                <label for="package">Select Package:</label>
+                <select id="package" name="package">
+                    <option value="paris">Paris - 150,000 INR</option>
+                    <option value="tokyo">Tokyo - 180,000 INR</option>
+                    <option value="bali">Bali - 120,000 INR</option>
+                </select>
+
+                <label for="requests">Additional Requests:</label>
+                <textarea id="requests" name="requests" rows="4"></textarea>
+
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Wanderlust Travels. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
